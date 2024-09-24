@@ -1,0 +1,146 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+header li{
+    display:inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin-left:16px;
+}
+
+.container {
+    width:1366px;
+    margin:0 auto;
+}
+
+.articles {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.articles article img {
+    width:100%;
+}
+
+.articles article {
+    width:30%;
+}
+
+body > header {
+    background-color:rgb(112, 122, 139) ;
+    padding: 16px 0;
+    margin-bottom:16px;
+}
+
+h1 {
+    color:rgb(255, 234, 194);
+}
+
+#sports h2 {
+    color:rgb(81, 11, 138);
+    margin-bottom:16px;
+}
+
+#economy h2 {
+    color:rgb(182, 155, 5);
+    margin-bottom:16px;
+
+}
+
+.creation-date {
+    color:gray;
+}
+
+section,
+.articles article {
+    padding:16px 0;
+}
+
+.articles article h3 {
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.articles article a{
+    color:rgb(65, 64, 64);
+    background-color: rgb(157, 155, 248);
+    padding:7px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header li a{
+    color:rgb(255, 234, 194);
+    justify-content:space-between;
+    text-decoration:none;
+
+}
+
+.articles article p,
+.articles article a {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+font-size:24px;
+}
+
+.container h2 {
+    font-size:32px;
+}
+
+.articles article a:hover {
+    text-decoration:underline;
+    color:rgb(255, 234, 194);
+}
+
+#sports {
+    background-color:rgb(197, 142, 241);
+}
+
+#sports a {
+    background-color:rgb(139, 45, 202);
+}
+
+#economy {
+    background-color: rgb(255, 242, 170);
+}
+
+#economy a {
+    background-color:rgb(202, 174, 17);
+}
+
+#politics h2 {
+    color:rgb(185, 24, 24);
+}
+
+#politics {
+    background-color:rgb(250, 154, 154);
+}
+
+#politics a {
+    background-color:rgb(185, 24, 24);
+}
+
+#tech {
+    background-color:rgb(241, 155, 202);
+}
+
+#tech a {
+    background-color:rgb(235, 67, 159);
+}
+
+#tech h2 {
+    color:rgb(223, 35, 138);
+}
